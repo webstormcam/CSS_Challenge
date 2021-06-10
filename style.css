@@ -34,6 +34,9 @@ header{
     font-weight: bold;
     
 }
+.headeritems p{
+    margin-bottom: 0px;
+}
 
 img{
     width: 150px;
@@ -54,18 +57,40 @@ img{
     width: 620px;
     color: green;
     border: 1px solid pink;
-    padding-top: 20px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.section1items span{
+    color: lime;
+    font-weight: bold;
+    
+}
+
+.header{
+    font-size: 40px;
+}
+
+.text{
+    color: black;
+    font-size: 18px;
 }
 
 .section1items p{
     padding-left: 75px;
     padding-right:75px;
+    
 }
 
 .button1{
     display: inline-block;
     background-color: lime;
     padding: 10px 20px;
+}
+
+.button1:hover{
+    color: lime;
+    background-color: mediumblue;
 }
 
 .section2{
