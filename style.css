@@ -140,8 +140,9 @@ img{
     content: "";
     display: block;
     margin: 0 auto;
-    width: 45%;
-   border-bottom: 1px solid black;
+    width: 60%;
+   border-bottom: 1px solid white;
+   padding-top: 10px;
     
 }
 
@@ -149,7 +150,30 @@ img{
     content: "";
     display: block;
     margin: 0 auto;
-    width: 45%;
+    width: 60%;
+   border-bottom: 1px solid white;
+ 
+   
+    
+}
+
+
+.header:after{
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+   border-bottom: 1px solid black;
+   padding-top: 10px;
+    
+}
+
+
+.header:before{
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 70%;
    border-bottom: 1px solid black;
     
 }
