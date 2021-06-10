@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+}
+
+h1,h2,p{
+    margin-top: 0px;
+}
+
+header{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    
+    
+}
+
+.headeritems{
+    width: 620px;
+    color: green;
+    border: 1px solid pink;
+    padding-top: 20px;
+}
+
+img{
+    width: 150px;
+    margin-bottom: 40px;
+}
+
