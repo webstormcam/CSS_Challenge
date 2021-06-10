@@ -93,6 +93,11 @@ img{
     background-color: mediumblue;
 }
 
+.button1:focus{
+    color: lime;
+    background-color: mediumblue;
+}
+
 .section2{
     background-color: #464956;
     display: flex;
