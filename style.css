@@ -4,6 +4,7 @@
 
 body{
     margin: 0px;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 h1,h2,p{
@@ -17,15 +18,21 @@ header{
     width: 100%;
     align-items: center;
     text-align: center;
-    
-    
+    font-size: 40px;
 }
 
 .headeritems{
     width: 620px;
-    color: green;
+    color: white;
     border: 1px solid pink;
     padding-top: 20px;
+    
+}
+
+.headeritems span{
+    color: lime;
+    font-weight: bold;
+    
 }
 
 img{
