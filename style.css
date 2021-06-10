@@ -49,3 +49,13 @@ img{
     padding-top: 20px;
 }
 
+.section1items p{
+    padding-left: 75px;
+    padding-right:75px;
+}
+
+.button1{
+    display: inline-block;
+    background-color: lime;
+    padding: 10px 20px;
+}
