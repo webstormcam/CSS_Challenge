@@ -31,6 +31,7 @@ header{
 img{
     width: 150px;
     margin-bottom: 40px;
+    padding-top: 20px;
 }
 
 .section1{
@@ -58,4 +59,20 @@ img{
     display: inline-block;
     background-color: lime;
     padding: 10px 20px;
+}
+
+.section2{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.section2items{
+    width: 620px;
+    color: green;
+    border: 1px solid pink;
+    padding-top: 20px;
 }
