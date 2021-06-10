@@ -33,3 +33,19 @@ img{
     margin-bottom: 40px;
 }
 
+.section1{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.section1items{
+    width: 620px;
+    color: green;
+    border: 1px solid pink;
+    padding-top: 20px;
+}
+
