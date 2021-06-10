@@ -24,7 +24,7 @@ header{
 .headeritems{
     width: 620px;
     color: white;
-    border: 1px solid pink;
+   
     padding-top: 20px;
     
 }
@@ -56,7 +56,7 @@ img{
 .section1items{
     width: 620px;
     color: green;
-    border: 1px solid pink;
+
     padding-top: 80px;
     padding-bottom: 80px;
 }
@@ -87,6 +87,9 @@ img{
     display: inline-block;
     background-color: lime;
     padding: 10px 20px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 .button1:hover{
@@ -106,12 +109,13 @@ img{
     width: 100%;
     align-items: center;
     text-align: center;
+    padding-bottom: 40px;
 }
 
 .section2items{
     width: 620px;
     color: green;
-    border: 1px solid pink;
+ 
     padding-top: 20px;
 }
 
@@ -148,5 +152,51 @@ img{
    border-bottom: 1px solid black;
     
 }
+
+h3{
+    color: white;
+    margin-bottom: 0px;
+    font-size: 33px;
+}
+
+.section2items p{
+    color: white;
+}
+.section2items p span{
+    color: lime;
+}
+
+.links{
+    color: lime;
+}
+
+.links:hover{
+    color: red;
+}
+
+.links:focus{
+    color: red;
+}
+
+
+.button2{
+    display: inline-block;
+    background-color: lime;
+    padding: 10px 20px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none; 
+}
+
+.button2:hover{
+    color: lime;
+    background-color: mediumblue;
+}
+
+.button2:focus{
+    color: lime;
+    background-color: mediumblue;
+}
+
 
 
